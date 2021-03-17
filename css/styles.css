@@ -130,7 +130,7 @@ img {
 
 /* social */
 .social__list-item {
-   width: 44px;
+  width: 44px;
   height: 44px;
 }
 
@@ -498,7 +498,6 @@ outline: none;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 6 - 30px);
-  width: 170px;
   height: 90px;
   color: #afb1b8;
 }
