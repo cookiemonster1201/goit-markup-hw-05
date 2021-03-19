@@ -187,15 +187,12 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav__list-item__link.current-page {
+.current-page {
+  position: relative;
   color: var(--accent-color);
 }
 
-.site-nav__list-item__link.active-page {
-  position: relative;
-}
-
-.site-nav__list-item__link.active-page::after {
+.current-page::after {
   position: absolute;
   left: 0;
   bottom: 0;
